@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>king music </title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <a href="home.html" class="button" type="button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAehJREFUWEftlt9RwkAQxr9NZvRRSsAKxAqEChwqUCvQR0845xSQR7UCsQM7EDvQDmIHPKpjcs6qwQBJNn9AeOBmMhnm9nZ/9+1uWMKKLVoxHqyBpIyUUqjX69XI2vpZu30jBcq6XxiIYdwgeLTArdLaZA0o2RUCisBUAFwsFWgKhi+8PKAYmOUBJcAsBygFBiDyYK03fgOw1g4/guDFGDOSinh6XyzqVBghGgHPAAZvvn+fFS4VqAxMlJWAkQVulNYXkmKJQPOCmQJ7tr7fVMZ4SWCxQIuACQFYLd9xGq1Wi9M5s2aAFgkzjk7kvX9+7sbV1QSQMaay6bos55aU67L7BDycat0Uu4wVcoJg+B9QABpKa471J17cTfvGVOG6DwB2yiohnB8qrRsiEBt8p89xBiDaXyiU729Hu078MPY7HZ51jlOgXgFE27iWK93WHqnz80GkC+X79y8vD0F0l2AZ+2/PCm+4bp2AOn6epPTzPHWSC4iNU4o90/jxe54DH0xd7ElpzcDfS0xZ9HBCsWcCCv38+uAU7f0QkKfa7e1CQAnFngsoDHzV7Z6Qtdf8W2k9FiaXQhNq/RV7ISD2FdbmXIAiDqtlZmqGyt1lch/Oz6JwyuaHMOlpDSQpu1ZorZCkgLS/cjX0Bf9t3SW5dX35AAAAAElFTkSuQmCC" width="50" height="45" /></a>
+  <div class="player">
+
+    <div class="logo">
+      <i class='bx bx-music'></i>
+    </div>
+    
+    <span id="musicName"></span>
+    
+    <audio id="player" src=""></audio>
+    <div class="controls">
+      <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
+      <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+      <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+    </div>
+    <div class="footer">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+    <div class="eu" >
+      <h6>Created by : Mauricio Tertuliano dev front-end</h6>
+     </div>
+  </div> 
+
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>

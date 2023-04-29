@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-size: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/74/374/372/colorful-minimalism-windows-10-pastel-shapes-hd-wallpaper-thumb.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   flex-direction: column;
+   max-width: 400px;
+   width: 100%;
+   height: 500px;
+   margin: 0 10px;
+   box-shadow: 0 1px 10px #0b8c8e;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #fff;
+}
+
+
+
+.logo {
+    background-color: #0b8c8e;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logo i {
+    font-size: 200px;
+}
+
+#musicName {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30px;
+}
+
+.controls button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.controls i {
+    font-size: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all .2s;
+}
+
+.controls i:hover {
+    background-color: rgb(178, 180, 182);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time span {
+ font-size: 22px;
+ color: #302d2d;
+
+}
+
+.footer {
+    width: 100%;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 8px;
+    background-color: #333;
+    border-radius: 5px;
+}
